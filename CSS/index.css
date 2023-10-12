@@ -125,6 +125,8 @@ li{
 
 .navbar-list-item:hover a{
     font-weight: bold; /* Change link weight to bold because the orange was not visible enough */
+    color: white;
+    text-decoration: none; /*Font get disappear and have underline too*/
 }
 
 /* Hamburger menu icon */
@@ -195,7 +197,7 @@ li{
 }
 
 .explore-btn:hover {
-    width: 320px;
+    width: 300px;
 }
 
 
@@ -652,11 +654,16 @@ h1 small {
 #btn4{
     background-color: #007BFF;
     color: white;
+    box-shadow: 0px;
 }
 
 #btn4:hover{
-    background-color: wheat;
+    background-color: rgb(221, 246, 255);
     color: #007BFF;
+    border: 2px solid black;
+    box-shadow: 2px 1px black;
+    transform: translateX(-3px) translateY(-3px);
+
 }
 
 .loader
